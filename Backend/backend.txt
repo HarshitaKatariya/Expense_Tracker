@@ -1,1 +1,27 @@
-just empty file not used...
+Expense Tracker Backend
+This backend is part of the Expense Tracker web application. It handles user authentication, income and expense tracking, and provides summary reports via RESTful APIs.
+
+Tech Stack
+Node.js – Runtime environment
+
+Express.js – Web framework
+
+MongoDB – NoSQL database
+
+Mongoose – ODM for MongoDB
+
+JWT (JSON Web Token) – For user authentication
+
+bcrypt.js – For password hashing
+
+Folder Structure
+/backend
+│
+├── model/             # Mongoose schemas (User, Income, Expense)
+├── routes/            # API routes
+├── middleware/        # Custom middlewares (auth)
+├── controller/        # (Optional) Logic abstraction
+├── .env               # Environment variables
+├── .gitignore
+├── server.js          # Entry point
+└── package.json
